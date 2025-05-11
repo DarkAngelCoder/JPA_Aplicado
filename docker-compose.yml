@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_cursos
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: cursos_online
+      MYSQL_ROOT_PASSWORD: senha
+    volumes:
+      - dbdata:/var/lib/mysql
+    networks:
+      - rede-cursos
+
+volumes:
+  dbdata:
+
+networks:
+  rede-cursos:
