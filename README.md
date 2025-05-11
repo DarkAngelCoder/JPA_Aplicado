@@ -1,1 +1,2 @@
-# JPA_Aplicado
+📚 Projeto: Sistema de Gerenciamento de Cursos Online
+Este projeto é uma aplicação Spring Boot que permite o gerenciamento de cursos e instrutores em uma plataforma online. Ele utiliza JPA com Spring Data para persistência de dados, e expõe uma API RESTful com endpoints para criação, listagem, filtragem e exclusão de cursos e instrutores. O banco de dados PostgreSQL roda via Docker, garantindo facilidade de configuração e portabilidade.
